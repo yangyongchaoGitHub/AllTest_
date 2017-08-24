@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/sugar_test_insert_house_actuator_heatmeter_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加房屋和阀门热表"/>
+
+    <Button
+        android:id="@+id/sugar_test_get_all_house_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="获取全部的房屋"/>
+
+    <Button
+        android:id="@+id/sugar_test_get_all_actuator_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="获取全部的阀门"/>
+
+    <Button
+        android:id="@+id/sugar_test_get_all_heatmeter_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="获取全部的热表"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="test1"
+        android:id="@+id/sugar_test_get_test1_btn"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/sugar_test_log_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

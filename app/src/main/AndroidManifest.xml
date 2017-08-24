@@ -1,0 +1,69 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.agivision.alltest">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CHANGE_NEWWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE"/>
+
+    <!--android:name="com.agivision.alltest.MyApplication"-->
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme"
+        android:name="com.orm.SugarApp">
+
+        <meta-data android:name="DATABASE" android:value="concentrator.db" />
+        <meta-data android:name="VERSION" android:value="3" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="com.agivision.alltest.model" />
+
+        <activity android:name="com.agivision.alltest.MainUI"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN">
+
+                </action>
+
+                <category android:name="android.intent.category.LAUNCHER">
+                </category>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".floatview.FloatView"
+            android:theme="@style/FloatTheme">
+
+        </activity>
+
+        <activity android:name=".jpgtest.GifTest"
+
+            android:theme="@style/FloatTheme">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name=".gprs.GprsTest"
+            android:theme="@style/FloatTheme">
+
+        </activity>
+
+        <activity android:name=".packetupdate.UpdateApplication"
+            android:theme="@style/FloatTheme">
+
+        </activity>
+        <activity android:name=".gps.GPSservice">
+
+        </activity>
+
+        <activity android:name=".sugartest.AddAndSearch">
+
+        </activity>
+        <activity android:name=".bluetoothTest.BluetoothTestMain">
+        </activity>
+        <activity android:name=".jpgtest.GifPlus">
+
+        </activity>
+    </application>
+
+</manifest>

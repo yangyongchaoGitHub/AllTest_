@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--<style name="FloatTheme" parent="@style/android:Theme.Holo.Light.Dialog.NoActionBar">
+    </style>-->
+
+    <style name="FloatTheme" parent="@style/android:Theme.Holo.Light.Dialog.NoActionBar">
+    </style>
+    <style name="Widget.GifMoviewView" parent="@android:style/Widget">
+
+    </style>
+</resources>

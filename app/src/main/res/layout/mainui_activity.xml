@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="悬浮窗test"
+        android:id="@+id/btn_go_float"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_giftest"
+        android:text="动态图"/>
+
+    <Button
+        android:id="@+id/btn_giftestplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态图加强版"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPRS信号强度"
+        android:id="@+id/btn_gprs_strength"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安装应用"
+        android:id="@+id/btn_install_application"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_testzz"
+        android:imeOptions="flagNoExtractUi"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gps"
+        android:id="@+id/gps_btn"/>
+
+    <Button
+        android:id="@+id/sugar_test_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试sugar"/>
+
+    <Button
+        android:id="@+id/btn_bluetooth_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝牙测试"/>
+</LinearLayout>

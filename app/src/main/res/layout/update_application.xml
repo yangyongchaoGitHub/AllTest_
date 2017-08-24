@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用路径"
+        android:id="@+id/tv_apkpath_left"
+        />
+
+    <EditText
+        android:id="@+id/et_apkpath"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/lantern-android-beta.apk"
+        android:layout_toEndOf="@+id/tv_apkpath_left"
+        />
+
+    <Button
+        android:id="@+id/btn_updateapk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_apkpath_left"
+        android:text="安装"/>
+
+    <Button
+        android:id="@+id/btn_findFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查找文件"
+        android:layout_below="@+id/btn_updateapk"/>
+
+    <EditText
+        android:id="@+id/et_file_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:layout_below="@+id/btn_findFile"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看路径下的文件列表"
+        android:layout_marginStart="10dp"
+        android:layout_alignTop="@+id/et_file_path"
+        android:layout_toEndOf="@+id/et_file_path"
+        android:id="@+id/btn_lookFile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/et_file_path"
+        android:layout_toEndOf="@+id/btn_lookFile"
+        android:id="@+id/tv_show_msg"/>
+
+</RelativeLayout>
